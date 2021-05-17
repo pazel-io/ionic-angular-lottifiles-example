@@ -1,0 +1,25 @@
+div.container {
+  width: 100vw;
+
+  div.animation {
+    margin: auto;
+    height: 70vw;
+    width: 70vw;
+  }
+
+  div.text {
+    margin: auto;
+    width: 80vw;
+
+    h1 {
+      margin-bottom: 1rem;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
+    p {
+      font-weight: 200;
+      line-height: 2rem;
+    }
+  }
+}

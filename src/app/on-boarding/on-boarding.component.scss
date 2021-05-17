@@ -1,0 +1,45 @@
+ion-content {
+  app-on-boarding-slide {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+ion-slides {
+  height: 100%;
+}
+
+ion-button.next {
+  z-index: 1;
+  height: 14vw;
+  width: 14vw;
+  right: 7vw;
+  bottom: 7vw;
+  position: absolute;
+  --border-radius: 50%;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --background-activated: transparent;
+  --background-focused: transparent;
+
+  ion-icon {
+    font-size: 30px;
+  }
+}
+
+ion-button.skip {
+  z-index: 1;
+  right: 7vw;
+  top: 7vw;
+  font-weight: 300;
+  @media screen and (width: 375px) and (height: 812px), (width: 414px) and (height: 896px), (width: 428px) and (height: 926px), (width: 390px) and (height: 844px) {
+    top: 10vw;
+  }
+  height: 7vw;
+  width: 7vw;
+  position: absolute;
+  --background-activated: transparent;
+  --background-focused: transparent;
+}
